@@ -19,10 +19,9 @@ void showBill(int quantity[], char customerName[], char sapId[]) {
     int i;
     int total = 0;
 
-    printf("\n========== BILL ==========\n");
+    printf("\nBILL\n");
     printf("Customer Name: %s\n", customerName);
     printf("SAP ID: %s\n", sapId);
-    printf("--------------------------\n");
     printf("Item\t\tQuantity\tAmount\n");
 
     for (i = 0; i < MENU_SIZE; i++) {
@@ -32,10 +31,8 @@ void showBill(int quantity[], char customerName[], char sapId[]) {
             total = total + quantity[i] * price[i];
         }
     }
-
-    printf("--------------------------\n");
+    
     printf("Total Bill: Rs. %d\n", total);
-    printf("==========================\n");
 }
 
 int main(void) {
