@@ -112,15 +112,3 @@ The outputs below show what the program displays for each case. Menu prices are 
 | Invalid choice | At the main menu, enter `8`; then enter `4` to exit | Program asks for a number from `1` to `4`, then exits | Program asks for a number from `1` to `4`, then exits |
 
 For a complete terminal demonstration, add an item and choose **View bill**. The program prints a bill table and its total. The sample bill does not add tax or a discount.
-
-## GitHub submission notes
-
-Suggested repository name from the guidelines: `Batch##_Team##_SmartCanteenBilling` (replace `##` with your batch and team numbers).
-
-Before submission:
-
-- Fill in the team details above.
-- Confirm the topic and any required menu/prices with your faculty member.
-- Upload this README and `canteen_billing.c` to your GitHub repository.
-- Submit the repository URL to your faculty member before the Lab 1 session ends.
-- Prepare and upload the presentation for Lab 2 as required by your faculty member.
